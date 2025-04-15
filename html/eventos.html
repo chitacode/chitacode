@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Eventos</title>
+</head>
+<body>
+
+    <!-- Estructura Nro1-->
+    <header>
+      <nav class="nav-bar">
+        <ul>
+        <li><a href="../index.html" class="nav-link">Inicio</a></li>
+        <li><a href="areas-protegidas.html" class="nav-link">Areas Protegidas</a></li>
+        <li><a href="#" class="nav-link">Noticias y Eventos</a></li>
+        <li><a href="quienes-somos.html" class="nav-link">Quienes Somos?</a></li>
+        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Estructura Nro2-->
+  <main>
+    <h1>Eventos y Noticias</h1>
+  </main>  
+    <!-- Tiro un grid-->
+        <div class="grid-container-noticias">
+          <div class="grid-item"> <img src="../images/tres piezas.png" class="img-evento" alt="ecoparque 3 piezas">   </div>        
+          <div class="grid-item"><p>Taller de motosierra en el Delta del Tigre, acercate al ecoparque de tres piezas. <br><br> 16 de Abril</p> </div>
+          <div class="grid-item"><img src="../images/apn.png" class="img-evento" alt="parque nacional"></div>
+          <div class="grid-item"><p>Curso Nivel II Brigadista de APN en P. N. Ciervo de los Pantanos. <br><br> 10 y 11 de Junio</p></div>
+          <div class="grid-item"><img src="../images/el destino.jpg" class="img-evento" alt="reserva el destino"></div>
+          <div class="grid-item"><p>Fiesta de la Mariposa Banderita Argentina en Magdalena.<br><br> 16 y 17 de Agosto</p> </div>
+          <div class="grid-item"><img src="../images/parquepereyra.jpg" class="img-evento" alt="Parque Pereyra"></div>
+          <div class="grid-item"><p>2da Feria de la ONG Amigos de la Tierra en Parque Provincial Pereyra Iraola.<br><br> 20 de Mayo </p></div>
+          <div class="grid-item"><img src="../images/recs coa.jpg" class="img-evento" alt="observacion de aves"></div>
+          <div class="grid-item"><p> Salida de observacion de aves con el COA en la Recs(Reserva Ecologica Costanera Sur). 
+            <br><br>5 de Mayo </p>  </div>
+        </div>
+
+    <!-- Estructura Nro3-->
+    <footer> 
+      <div class="div-footer-f">
+       <img src="../icons/logo.avif" class="logofooter" alt="logo ecomapa" width="100" height="100">
+       <div class="div-footer-a">
+        <h4> Contactate con nosotros</h4>
+        <ul>
+          <li>Escribinos a nuestro WhatsApp: <a href="https://wa.me/1234567899" target="_blank">1234567899</a></li>
+          <li>Nuestro Correo:<a href="mailto:ecomapaBA@gmail.com" target="_blank">ecomapaBA@gmail.com</a></li>
+          <li> Estamos Aca: <a href="https://www.google.com/maps/place/43%C2%B038'42.3%22N+115%C2%B059'35.1%22W/@43.645106,-115.9934967,200m/data=!3m1!1e3!4m4!3m3!8m2!3d43.645074!4d-115.993081?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Calle Falsan 123</a></li>
+         </ul>
+       </div> 
+       <div class="div-footer-b">
+         <h4>Suscribite y recibi nuestras novedades</h4>
+         <form action="/submit" method="post">       
+           <ul>
+             <li>
+               <label for="">Que Parque desea visitar?:</label>
+               <select name="parques" " id=""> 
+               <option value="" disabled selected> Indique que Parque</option>
+               <option value="P. N. Ciervo de los Pantanos"> P. N. Ciervo de los Pantanos</option>
+               <option value="P. N. Campos del Tuyu"> P. N. Campos del Tuyu</option>
+               <option value="P. Pereyra Iraola"> P. Pereyra Iraola</option>
+             </select>
+             </li>
+             <li>
+               <label for="">Nombre y Apellido:</label><input type="text" name="nombre" placeholder="Nombre y Apellido">
+             </li>
+             <li><label for="">E-Mail:</label><input type="email" name="email" placeholder="E-Mail">
+             </li>
+           </ul>
+           <input type="submit" value="Enviar">
+         </form>
+       </div>
+     </div>
+     </footer>
+ 
+</body>
+</html>

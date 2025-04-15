@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>QuienesSomos</title>
+</head>
+<body>
+    <!-- Estructura Nro1-->
+    <header>
+      <nav class="nav-bar">
+        <ul>
+        <li><a href="../index.html" class="nav-link">Inicio</a></li>
+        <li><a href="areas-protegidas.html" class="nav-link">Areas Protegidas</a></li>
+        <li><a href="eventos.html" class="nav-link">Noticias y Eventos</a></li>
+        <li><a href="#" class="nav-link">Quienes Somos?</a></li>
+        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Estructura Nro2-->
+  <main>
+    <h1>Quienes Somos?</h1>
+    <section class="mision">
+      <img src="../images/quienes.jpg" alt="EcoMapa" class="brujula-img">
+      <h2>EcoMapa BA</h2>
+      <div class="div-quienes-f">
+      <div class="div-quienes-a">
+        <p>Ecomapa BA es un proyecto colaborativo creado por amantes de la naturaleza y especialistas en conservación ambiental. Nuestra misión es visibilizar y proteger el patrimonio ecológico de la Provincia de Buenos Aires a través de la tecnología y la participación ciudadana.</p>
+        
+        <p>Nacimos en 2023 con el objetivo de centralizar en un solo sitio toda la información sobre las <strong>áreas protegidas</strong> de la región, desde los humedales del Delta hasta las reservas naturales urbanas. Creamos esta plataforma para que tanto turistas como locales puedan descubrir estos espacios y sumarse a iniciativas de preservación.</p>
+        
+        <p>En Ecomapa BA encontrarás:</p>
+        <ul>
+            <li>Mapas interactivos de todas las áreas naturales protegidas</li>
+            <li>Calendario de eventos y actividades de conservación</li>
+            <li>Guías educativas sobre flora y fauna autóctona</li>
+            <li>Información actualizada sobre proyectos de restauración ecológica</li>
+        </ul>        
+        <p>Creemos que la conexión con la naturaleza comienza por el conocimiento. ¡Sumate a esta red de guardianes del ambiente bonaerense!</p>
+    </div>
+    <div class="div-quienes-b">
+      <img src="../images/map1.jpg" alt="mapa">
+    </div> 
+  </div>
+  </section>
+  <section class="mision">
+    <h2>Lo que nos motiva</h2>
+    <div class="contenido-mision">
+        <p>En <strong>Ecomapa BA</strong> nos impulsa la convicción de que cada espacio natural protegido de Buenos Aires es un tesoro que merece ser conocido, valorado y preservado. Creemos que la tecnología puede ser una poderosa aliada para conectar a las personas con estos ecosistemas únicos.</p>
+        
+        <h3>Nuestra misión</h3>
+        <p>Transformarnos en la <strong>plataforma de referencia</strong> para:</p>
+        <ul class="valores">
+            <li><strong>Visualizar</strong> integralmente todas las áreas protegidas de la provincia</li>
+            <li><strong>Concientizar</strong> sobre su importancia ecológica y cultural</li>
+            <li><strong>Facilitar</strong> el acceso a información actualizada y confiable</li>
+            <li><strong>Promover</strong> la participación en actividades de conservación</li>
+            <li><strong>Conectar</strong> a comunidades, visitantes y organismos de protección</li>
+        </ul>
+        <div ">
+            <p>"Trabajamos para que cada bonaerense pueda descubrir, disfrutar y proteger los paisajes naturales que hacen único a nuestro territorio."</p>
+        </div>
+    </div>
+</section>
+  </main>  
+
+  
+    <!-- Estructura Nro3-->
+    <footer> 
+      <div class="div-footer-f">
+       <img src="../icons/logo.avif" class="logofooter" alt="logo ecomapa" width="100" height="100">
+       <div class="div-footer-a">
+        <h4> Contactate con nosotros</h4>
+        <ul>
+          <li>Escribinos a nuestro WhatsApp: <a href="https://wa.me/1234567899" target="_blank">1234567899</a></li>
+          <li>Nuestro Correo:<a href="mailto:ecomapaBA@gmail.com" target="_blank">ecomapaBA@gmail.com</a></li>
+          <li> Estamos Aca: <a href="https://www.google.com/maps/place/43%C2%B038'42.3%22N+115%C2%B059'35.1%22W/@43.645106,-115.9934967,200m/data=!3m1!1e3!4m4!3m3!8m2!3d43.645074!4d-115.993081?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Calle Falsan 123</a></li>
+         </ul>
+       </div> 
+       <div class="div-footer-b">
+         <h4>Suscribite y recibi nuestras novedades</h4>
+         <form action="/submit" method="post">       
+           <ul>
+             <li>
+               <label for="">Que Parque desea visitar?:</label>
+               <select name="parques" " id=""> 
+               <option value="" disabled selected> Indique que Parque</option>
+               <option value="P. N. Ciervo de los Pantanos"> P. N. Ciervo de los Pantanos</option>
+               <option value="P. N. Campos del Tuyu"> P. N. Campos del Tuyu</option>
+               <option value="P. Pereyra Iraola"> P. Pereyra Iraola</option>
+             </select>
+             </li>
+             <li>
+               <label for="">Nombre y Apellido:</label><input type="text" name="nombre" placeholder="Nombre y Apellido">
+             </li>
+             <li><label for="">E-Mail:</label><input type="email" name="email" placeholder="E-Mail">
+             </li>
+           </ul>
+           <input type="submit" value="Enviar">
+         </form>
+       </div>
+     </div>
+     </footer>
+ 
+</body>
+</html>

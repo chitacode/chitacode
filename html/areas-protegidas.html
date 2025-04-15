@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Areas</title>
+    </head>
+
+
+<body>
+
+  
+    <!-- Estructura Nro1-->
+    <header>
+      <nav class="nav-bar">
+        <ul>
+        <li><a href="../index.html" class="nav-link">Inicio</a></li>
+        <li><a href="#" class="nav-link">Areas Protegidas</a></li>
+        <li><a href="eventos.html" class="nav-link">Noticias y Eventos</a></li>
+        <li><a href="quienes-somos.html" class="nav-link">Quienes Somos?</a></li>
+        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Estructura Nro2-->
+  <main>
+    <h1>Areas Protegidas</h1>
+    <h2>Lista de Areas Protegidas</h2>
+    <p>nota del programador# aca pienso hacer una lista desplegable interactiva, pero todavia no se cual es la mejor forma de hacerlo, si con algun elemento de html o esperar a profundizar en java</p>
+    <ul>
+      <li>Areas Protegidas Nacionales</li>
+      <br>
+           <ul>
+            <li>Parque Nacional Ciervo de los Pantanos</li>
+            <li>Parque Nacional Campos del Tuyu</li>
+           </ul>  
+      <br>
+      <li>Areas Protegidas Provinciales</li>
+      
+      <li>Areas Protegidas Municipales</li>
+      <li>Areas Protegidas Privadas</li>
+       </ul>
+
+
+  </main>  
+
+    <!-- Estructura Nro3-->
+    <footer> 
+      <div class="div-footer-f">
+       <img src="../icons/logo.avif" class="logofooter" alt="logo ecomapa" width="100" height="100">
+       <div class="div-footer-a">
+        <h4> Contactate con nosotros</h4>
+        <ul>
+          <li>Escribinos a nuestro WhatsApp: <a href="https://wa.me/1234567899" target="_blank">1234567899</a></li>
+          <li>Nuestro Correo:<a href="mailto:ecomapaBA@gmail.com" target="_blank">ecomapaBA@gmail.com</a></li>
+          <li> Estamos Aca: <a href="https://www.google.com/maps/place/43%C2%B038'42.3%22N+115%C2%B059'35.1%22W/@43.645106,-115.9934967,200m/data=!3m1!1e3!4m4!3m3!8m2!3d43.645074!4d-115.993081?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Calle Falsan 123</a></li>
+         </ul>
+       </div> 
+       <div class="div-footer-b">
+         <h4>Suscribite y recibi nuestras novedades</h4>
+         <form action="/submit" method="post">       
+           <ul>
+             <li>
+               <label for="">Que Parque desea visitar?:</label>
+               <select name="parques" " id=""> 
+               <option value="" disabled selected> Indique que Parque</option>
+               <option value="P. N. Ciervo de los Pantanos"> P. N. Ciervo de los Pantanos</option>
+               <option value="P. N. Campos del Tuyu"> P. N. Campos del Tuyu</option>
+               <option value="P. Pereyra Iraola"> P. Pereyra Iraola</option>
+             </select>
+             </li>
+             <li>
+               <label for="">Nombre y Apellido:</label><input type="text" name="nombre" placeholder="Nombre y Apellido">
+             </li>
+             <li><label for="">E-Mail:</label><input type="email" name="email" placeholder="E-Mail">
+             </li>
+           </ul>
+           <input type="submit" value="Enviar">
+         </form>
+       </div>
+     </div>
+     </footer>
+    </body>
+</html>
