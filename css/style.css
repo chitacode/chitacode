@@ -33,8 +33,16 @@ body {
             padding: 0; 
       }
       .caja-index-a, .caja-index-b {
-            width: 100%; 
+            width: 100%;
+            margin: 0;
+            padding: 0;
       }
+      .caja-index-b video {
+            width: 100%;
+            height: auto;
+            max-height: 300px; 
+            object-fit: contain; 
+          }
 
   .div-footer-f {
       flex-direction: column;
