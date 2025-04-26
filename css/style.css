@@ -26,6 +26,14 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .caja-index {
+            flex-direction: column;
+            align-items: center; 
+      }
+      .caja-index-a, .caja-index-b {
+            width: 100%; 
+      }
+
   .div-footer-f {
       flex-direction: column;
       align-items: center;
@@ -35,6 +43,7 @@ body {
       margin: 10px 0;
   }
 }
+
 
 /*Media query para tablets*/
 
@@ -54,7 +63,17 @@ body {
       video {
             width: 50%;
         }
-    
+        .caja-index {
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: nowrap; 
+            align-items: flex-start;
+            justify-content: center; 
+      }
+      .caja-index-a, .caja-index-b {
+            width: 45%;
+            margin: 20px;
+      }
 }
 
 
@@ -110,6 +129,8 @@ h2{
       display: flex;      
       width: 100%;
       padding: 10px;
+      flex-wrap: wrap;
+      
 }
 
 .caja-index-a {
@@ -117,12 +138,14 @@ h2{
       width: 50%;
       margin: 10px;
       padding: 10px;
-    }
+    
+}
 
 .caja-index-b { 
       width: 50%;
       margin: 10px;
       padding: 10px;
+      
 }
 
 .caja-index-b video {
@@ -238,14 +261,29 @@ ul{
       border: 1px solid;
       display: flex;
       flex-wrap: wrap; 
-      justify-content:space-between
+      justify-content: space-between;
       align-items: flex-start;
       padding: 10px;
       margin: 20px;
 }
+
 .div-footer-a ,
 .div-footer-b{
       flex: 1 1 300px; 
       padding: 10px;
       margin: 10px;     
 }
+
+@media (min-width: 1024px) {
+      .caja-index {
+        display: flex;
+        flex-direction: row; /* 🔥 IMPORTANTE: vuelve a estar en fila */
+        justify-content: center; /* Opcional */
+        align-items: flex-start; /* Opcional */
+      }
+      .caja-index-a, .caja-index-b {
+        width: 45%; /* 🔥 para que no sean 100% */
+        margin: 10px; 
+      }
+    }
+    
