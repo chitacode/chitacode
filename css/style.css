@@ -26,10 +26,13 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .div-footer-a,
-  .div-footer-b {
-      flex: 0 0 100%; 
-      text-align: center;
+  .div-footer-f {
+      flex-direction: column;
+      align-items: center;
+  }
+  .div-footer-a, .div-footer-b {
+      width: 100%; 
+      margin: 10px 0;
   }
 }
 
@@ -234,14 +237,15 @@ ul{
 .div-footer-f {
       border: 1px solid;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
       flex-wrap: wrap; 
+      justify-content:space-between
+      align-items: flex-start;
       padding: 10px;
       margin: 20px;
 }
-.div-footer-a,
+.div-footer-a ,
 .div-footer-b{
-      flex: 0 0 45%;
-      text-align: left;
+      flex: 1 1 300px; 
+      padding: 10px;
+      margin: 10px;     
 }
