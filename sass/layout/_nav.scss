@@ -1,0 +1,47 @@
+/*General*/
+h1{color: rgba(36, 148, 13, 0.822);
+    text-align:left;
+}
+
+h2{ 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    }
+
+p{
+    color: green;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+/* navbar */
+.nav-bar{ 
+    background-color: rgb(26, 78, 15);
+    }
+
+.nav-bar ul { 
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li{
+    margin: 0 15px;
+}
+
+.nav-bar{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.nav-link{
+    color: green;
+
+}
+.nav-link:hover{
+    color: rgb(200, 255, 0);
+    text-decoration: underline; 
+}

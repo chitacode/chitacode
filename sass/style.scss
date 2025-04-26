@@ -1,0 +1,18 @@
+/* Import layouts */
+@use "./layout/reset";
+@use "./layout/responsive";
+@use "./layout/nav";
+@use "./layout/footer";
+
+/* Import Pages */
+@use "./pages/index";
+@use "./pages/areas";
+@use "./pages/eventos";
+@use "./pages/quienes";
+@use "./pages/contacto";
+
+
+
+
+
+
