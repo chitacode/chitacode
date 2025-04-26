@@ -26,6 +26,11 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .div-footer-a,
+  .div-footer-b {
+      flex: 0 0 100%; 
+      text-align: center;
+  }
 }
 
 /*Media query para tablets*/
@@ -231,20 +236,12 @@ ul{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap; 
       padding: 10px;
       margin: 20px;
 }
-.div-footer-a{
-      flex-grow: 1;
-      width: fit-content;
-      padding: 10px;
-      margin: 20px;
-      
-}
+.div-footer-a,
 .div-footer-b{
-      flex-grow: 1;
-      width: fit-content;
-      padding: 10px;
-      margin: 20px;
-      
+      flex: 0 0 45%;
+      text-align: left;
 }
