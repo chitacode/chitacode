@@ -29,7 +29,8 @@ body {
   .caja-index {
             display: flex;
             flex-direction: column;
-            align-items: center; 
+            align-items: stretch;
+            padding: 0; 
       }
       .caja-index-a, .caja-index-b {
             width: 100%; 
